@@ -59,18 +59,34 @@ CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar
 ## Macetes de Pós Instalação (Rode os Seguintes Comandos)
 
 <code>sudo apt-get update</code>
+
 <code>sudo apt-get upgrade</code>
+
 <code>sudo apt-get install git</code>
+
 <code>git clone https://github.com/Manuel83/craftbeerpi3</code>
+
 <code>cd craftbeerpi3</code>
+
 <code>sudo ./install.sh</code>
+
 <code>sudo apt-get install python-pip</code>
+
 <code>sudo ./run.py</code>
+
 <code>sudo apt-get install python-pip -y </code>
+
 <code>sudo pip install flask</code>
+
 <code>sudo pip install flask_socketio</code>
+
 <code>sudo pip install flask_classy</code>
+
 <code>sudo pip install PyYAML</code>
+
 <code>sudo pip install GitPython</code>
+
 <code>sudo pip install requests</code>
+
 <code>sudo pip install gitdb2==2.0.5</code>
+
