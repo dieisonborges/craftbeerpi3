@@ -1,36 +1,41 @@
-# CraftBeerPi V3.0
+# CraftBeerPi V3.0 [PT-BR] + Macetes de Pós Instalação
 
-This is CraftBeerPi version 3.0. It's currently in beta status.
+Esta é a versão 3.0 do CraftBeerPi. Atualmente está em status beta.
 
-## Introduction Video
+## Instale o Raspbian
+Através do link abaixo você terá acesso ao software de Instalação do Raspbian
+
+https://www.raspberrypi.org/downloads/
+
+## Vídeo de introdução
 
 https://www.youtube.com/watch?v=YGARUJgFWh4&t=1s
 
-## Installation
+## Instalação
 
-Open a terminal window on Raspberry Pi and type:
+Abra uma janela de terminal no Raspberry Pi e digite:
 
 <code> git clone https://github.com/Manuel83/craftbeerpi3</code>
 
-This will download (clone) the software to your local Raspberry Pi.
+Isso irá baixar (clonar) o software para o seu Raspberry Pi local.
 
-Type <code>cd craftbeerpi3</code> to navigate into the craftbeerpi folder.
+Digite <code> cd craftbeerpi3 </code> para navegar até a pasta craftbeerpi.
 
-Type <code>sudo ./install.sh</code>
+Digite <code> sudo ./install.sh </code>
 
 ## Hardware Wiring
 
-Here you will find a guide how to wire everything up.
+Aqui você encontrará um guia como conectar tudo.
 
 http://web.craftbeerpi.com/hardware/
 
-## ATTENTION
+## ATENÇÃO
 
-CraftBeerPi 3.0 is a complete rewrite. Server as well as user interface. I recommend to use a second SD card for testing.
+CraftBeerPi 3.0 é uma reescrita completa. Servidor e interface de usuário. Eu recomendo usar um segundo cartão SD para teste.
 
-## Docker-based development
+## Desenvolvimento baseado em Docker
 
-For developing this application or its plugins on a PC/Mac you can use the docker-compose file:
+Para desenvolver este aplicativo ou seus plug-ins em um PC / Mac, você pode usar o arquivo docker-compose:
 
 ``` shell
 $ docker-compose up
@@ -41,10 +46,29 @@ app_1  | [2018-08-13 12:54:44,264] ERROR in __init__: BUZZER not working
 app_1  | (1) wsgi starting up on http://0.0.0.0:5000
 ```
 
-The contents of this folder will be mounted to `/usr/src/craftbeerpi3` and the server will be accesible on `localhost:5000`.
+O conteúdo desta pasta será montado em `/usr/src/craftbeerpi3` e o servidor estará acessível em `localhost:5000`.
 
-## Donation
+## Doação
 
-CraftBeerPi is a free & open source project. If you like to support the project I happy about a donation:
+CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar o projeto, fico feliz com a doação:
 
 [![Donate](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X9KR98KJ8YZQ)
+
+## Macetes de Pós Instalação (Rode os Seguintes Comandos)
+
+<code>sudo apt-get update</code>
+<code>sudo apt-get upgrade</code>
+<code>sudo apt-get install git</code>
+<code>git clone https://github.com/Manuel83/craftbeerpi3</code>
+<code>cd craftbeerpi3</code>
+<code>sudo ./install.sh</code>
+<code>sudo apt-get install python-pip</code>
+<code>sudo ./run.py</code>
+<code>sudo apt-get install python-pip -y </code>
+<code>sudo pip install flask</code>
+<code>sudo pip install flask_socketio</code>
+<code>sudo pip install flask_classy</code>
+<code>sudo pip install PyYAML</code>
+<code>sudo pip install GitPython</code>
+<code>sudo pip install requests</code>
+<code>sudo pip install gitdb2==2.0.5</code>
