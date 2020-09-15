@@ -1,3 +1,5 @@
+<img src="https://www.raspberrypi.org/app/uploads/2011/10/buckyball_logo_detailscropped-500x490.jpg" width="80"> <img src="https://web.craftbeerpi.com/assets/images/logo_dark.png" width="250">
+
 # CraftBeerPi V3.0 [PT-BR] + Macetes de Pós Instalação
 
 Esta é a versão 3.0 do CraftBeerPi. Atualmente está em status beta.
