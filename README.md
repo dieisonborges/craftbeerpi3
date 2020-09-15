@@ -52,7 +52,7 @@ O conteúdo desta pasta será montado em `/usr/src/craftbeerpi3` e o servidor es
 
 ## Doação
 
-CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar o projeto, fico feliz com a doação:
+CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar o projeto, Manuel83 vai ficar feliz com a doação:
 
 [![Donate](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2X9KR98KJ8YZQ)
 
