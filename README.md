@@ -104,3 +104,11 @@ CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar
 
 <code> static ip_address=192.168.10.27 </code>
 
+## Configuração Exemplo GPIO
+GPIO 04 - PIN 07 - Exclusivo Sensores de Temperatura
+GPIO 18 - PIN 12
+GPIO 23 - PIN 16
+GPIO 24 - PIN 18
+GPIO 25 - PIN 22
+
+
