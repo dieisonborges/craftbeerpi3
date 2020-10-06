@@ -106,9 +106,14 @@ CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar
 
 ## Configuração Exemplo GPIO
 GPIO 04 - PIN 07 - Exclusivo Sensores de Temperatura
+
 GPIO 18 - PIN 12
+
 GPIO 23 - PIN 16
-GPIO 24 - PIN 18
-GPIO 25 - PIN 22
+
+GPIO 24 - PIN 18 (Resistência Panela Água)
+
+GPIO 25 - PIN 22 (Resistência Panela Mostura)
+
 
 
