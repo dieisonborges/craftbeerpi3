@@ -90,3 +90,15 @@ CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar
 
 <code>sudo pip install gitdb2==2.0.5</code>
 
+## Colocar IP FIXO no RaspBian
+
+<code> interface eth0</code>
+
+<code> static routers=192.168.15.254</code>
+
+<code> static domain_search=pplware.com</code>
+
+<code> static domain_name_servers=192.168.8.254</code>
+
+<code> static ip_address=192.168.10.27 </code>
+
