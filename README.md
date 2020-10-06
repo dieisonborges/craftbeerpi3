@@ -92,6 +92,8 @@ CraftBeerPi é um projeto de código aberto e gratuito. Se você gosta de apoiar
 
 ## Colocar IP FIXO no RaspBian
 
+<code> sudo nano  /etc/dhcpcd.conf </code>
+
 <code> interface eth0</code>
 
 <code> static routers=192.168.15.254</code>
